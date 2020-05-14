@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    background:#d7d7d7;
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#title{
+    margin-left: 40%;
+}
+
+#img-div{
+    background: #ffffff;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
+#image{
+    width: 40%;
+    height: 80%;
+}
+
+#img-figcaption{
+    background: #ffffff;
+}
+
+#tribute-info{
+    
+    width: 80%;
+    margin: auto;
+}
