@@ -1,0 +1,165 @@
+body{
+    margin: 0px;
+    font-family: verdana;
+    font-size: 14px;
+}
+#main{
+    width: 80%;
+    margin: auto;
+}
+
+/* header styles */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    background: #fff;
+    z-index: 10;
+}
+#header-img{
+    width: 280px;
+    height: 40px;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    padding-right: 20px;
+    color: black;
+
+}
+
+
+
+/* form styles */
+.title{
+    text-align: center;
+}
+
+#form{
+    text-align: center;
+}
+#email{
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #d7d7d7;
+    margin: 10px;
+}
+#submit{
+    border: 0px;
+    outline: none;
+    padding: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #f1c40f;
+    cursor: pointer;
+}
+
+
+/* Fetaures styles */
+
+#features{
+    margin: 50px 50px;
+}
+.features__group{
+    display: flex;
+}
+
+.features__icon{
+    height: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+
+
+
+/* video element styles */
+
+#howitworks{
+text-align: center;
+}
+
+#video{
+    height: 300px;
+    width: 600px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.16);
+}
+
+
+
+
+
+/* Pricing card design */
+.pricing{
+    display: flex;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.pricing__card{
+    height: 320px;
+    width: 300px;
+    min-width: 300px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.16);
+}
+.pricing__rate{
+    font-weight: bold;
+    font-size: 25px;
+}
+.pricing__tile{
+    background: #d7d7d7;
+    margin: 0px;
+    padding: 20px;
+    font-weight: 500;
+}
+.card__description  {
+  line-height: 2;
+  text-align: center;
+}
+.pricing__select{
+    outline: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: #f1c40f;
+    border: none;
+    font-weight: 500;
+    border-radius: 2px;
+}   
+
+/* footer styles */
+
+#footer{
+    background: #d7d7d7;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 5px;
+}
+#footer ul{
+    list-style-type:none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#footer ul  li{
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+#footer p{
+    color: grey;
+    margin: 0px;
+}
+
+@media only screen and (max-width:600px){
+    #howitworks{
+        display: none;
+    }
+}
